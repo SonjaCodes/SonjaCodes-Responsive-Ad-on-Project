@@ -1,8 +1,20 @@
 h1 {
   font-family: "Playfair Display", serif;
-  line-height: 144px;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("../images/porsche logo main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
 }
