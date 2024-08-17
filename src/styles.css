@@ -37,6 +37,7 @@ header h3 {
 
 header a {
   background-color: white;
+  border-radius: 5px;
   color: #272044;
   display: inline-block;
   font-size: 14px;
