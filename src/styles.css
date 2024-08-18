@@ -5,12 +5,14 @@
 
 .grid {
   display: grid;
+  grid-gap: 64px;
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
   margin: 0 auto;
   max-width: 1200px;
+  padding: 100px 0;
 }
 
 header {
@@ -73,20 +75,18 @@ footer {
   background-size: cover;
   background-position: center;
   color: #F53B9B;
-  padding: 100px 0;
+  font-size: 14px;
 }
 
 footer h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 900;
   line-height: 1.5;
 }
 
 footer p {
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  margin-right: 20px;
   opacity: 0.75;
 }
 
