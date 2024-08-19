@@ -8,6 +8,10 @@
   grid-gap: 64px;
 }
 
+.middle {
+  align-items: center;
+}
+
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -16,7 +20,7 @@
   width: 100%;
 }
 
-.grid-3-columns {
+.grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
@@ -172,5 +176,14 @@ footer a {
 
   header h3 {
     font-size: 16px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
